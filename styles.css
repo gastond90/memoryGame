@@ -1,0 +1,24 @@
+.grid {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: auto;
+  width: 200px;
+  height: 200px;
+  margin: 200px;
+  margin-top: 5px;
+  /* background-color: white; */
+  
+  border-color: black;
+  
+  
+}
+
+body{
+  text-align: center;
+  background-color: grey;
+}
+
+h3{
+  margin-bottom: 1px;
+}
